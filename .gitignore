@@ -1,0 +1,34 @@
+# MATLAB editor backups and local workspace
+*.asv
+*.m~
+*.mlx~
+*.autosave
+matlab.mat
+
+# Simulink caches and generated code
+slprj/
+sccprj/
+*.slxc
+*.slx.autosave
+*.slx.r*
+*_ert_rtw/
+*_grt_rtw/
+codegen/
+*.mex*
+
+# Local simulation output
+/results/
+/work/
+/logs/
+*.log
+*.mldatx
+
+# Local archives, if accidentally copied into the repository
+/archive/
+
+# OS and editor metadata
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
